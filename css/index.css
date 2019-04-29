@@ -84,7 +84,7 @@ nav{
 	width: 900px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: flex-end;
+	justify-content: flex-start;
 }
 
 nav > a.text-link {
@@ -100,7 +100,7 @@ nav > a:hover {
 }
 
 .logo {
-	margin-left: 144px;
+	margin-left: 180px;
 }
 
 .innovation {
@@ -320,11 +320,35 @@ width: 900px;
     width: 500px;
 }
 
+header {
+    width: 500px;
+}
 
+nav{
+    height: auto;
+	margin-top: 0px;
+	overflow: hidden;
+	background-color: white;
+	top: 0;
+    width: 500px;
+    position: static;
+	display: flex;
+	flex-flow: column nowrap;
+    justify-content: center;
+align-items: center;
+}
 
+header nav a {
+    width: 500px;
+    border-bottom: 1px solid darkslategray;
+    text-align: center;
+}
 
-
-
+.logo {
+    align-self: center;
+    justify-self: flex-start;
+    margin: 0px 0px 0px 0px;
+}
 
 .innovation {
     width: 500px;
