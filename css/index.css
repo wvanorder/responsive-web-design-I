@@ -71,11 +71,10 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-header {
-	display: flex;
-}
+
 nav{
-	height: 40px;
+    height: 40px;
+    width: 400px;
 	margin-top: 0px;
 	overflow: hidden;
 	background-color: white;
@@ -100,7 +99,10 @@ nav > a:hover {
 }
 
 .logo {
-	margin-left: 180px;
+    position: fixed;
+    top: 0;
+    margin-left: 717px;
+    z-index: 1;
 }
 
 .innovation {
@@ -124,7 +126,6 @@ button {
 	width: 150px;
     margin: 0px 48px 20px 70px;
 	border: 2px solid darkslategray;
-	background-color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	color: darkslategray;
@@ -322,7 +323,7 @@ width: 900px;
         width: 800px;
     }
 
-    r {
+    hr {
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -340,21 +341,18 @@ width: 900px;
         width: 800px;
         position: static;
         display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-    align-items: center;
+        flex-flow: row nowrap;
     }
     
     header nav a {
         width: 800px;
-        border-bottom: 1px solid darkslategray;
         text-align: center;
     }
     
     .logo {
-        align-self: center;
-        justify-self: flex-start;
-        margin: 0px 0px 0px 0px;
+        display: block;
+        position: static;
+        margin: 20px 0px 0px 308.5px;
     }
     
     .innovation {
