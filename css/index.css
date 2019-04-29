@@ -315,9 +315,131 @@ width: 900px;
 }
 
 
+
+
+@media(max-width: 800px) {
+    .main-content {
+        width: 800px;
+    }
+
+    r {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    header {
+        width: 800px;
+    }
+    
+    nav{
+        height: auto;
+        margin-top: 0px;
+        overflow: hidden;
+        background-color: white;
+        top: 0;
+        width: 800px;
+        position: static;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    align-items: center;
+    }
+    
+    header nav a {
+        width: 800px;
+        border-bottom: 1px solid darkslategray;
+        text-align: center;
+    }
+    
+    .logo {
+        align-self: center;
+        justify-self: flex-start;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .innovation {
+        width: 800px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .innovation h1 {
+        width: 350px;
+    }
+    
+    .snippet {
+        display: none;
+    }
+    
+    .top-content{
+        height: 180px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    
+    .top-content h3 {
+    text-align: left;
+        margin: 2% 0% 2% 1%;
+    }
+    
+    .top-content p {
+        width: 49%;
+        margin: 0% 1% 5% 1%;;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .middle-img {
+        width: 775px;
+        align-content: center;
+    }
+    
+    .bottom-content {
+        height: 170px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+    }  
+    
+    .bottom-content h3 {
+        text-align: left;
+        margin: 0% 0% 2% 1%;
+    }
+    
+    .bottom-content p {
+        width: 29%;
+        margin: 0% 1% 0% 1%;
+    }
+    
+    address {
+        height: 120px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+            margin-left: 1%;
+        }
+    footer {
+            display: block;
+            text-align: center;
+            margin: 20px 40px 40px 40px;
+        }
+}
+
+
+
+
+
 @media (max-width: 500px) {
 .main-content {
     width: 500px;
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 header {
@@ -339,9 +461,10 @@ align-items: center;
 }
 
 header nav a {
-    width: 500px;
+    width: 450;
     border-bottom: 1px solid darkslategray;
     text-align: center;
+    margin: 0px 10px 0px 10px;
 }
 
 .logo {
