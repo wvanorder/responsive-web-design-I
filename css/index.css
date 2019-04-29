@@ -317,7 +317,7 @@ width: 900px;
 
 
 
-
+/*INDEX MEDIA SIZING */
 @media(max-width: 800px) {
     .main-content {
         width: 800px;
@@ -425,10 +425,6 @@ width: 900px;
             margin: 20px 40px 40px 40px;
         }
 }
-
-
-
-
 
 @media (max-width: 500px) {
 .main-content {
@@ -538,5 +534,7 @@ footer {
         text-align: center;
         margin: 20px 40px 40px 40px;
     }
-}
+}/*END INDEX MEDIA SIZING */
+
+
 
