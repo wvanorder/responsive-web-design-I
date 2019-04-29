@@ -255,12 +255,13 @@ width: 900px;
 }
 
 .services-bottom-content {
-	display: flex;
-	flex-flow: column nowrap;
+    width: 900px;
+    display: flex;
+	flex-flow: column wrap;
 	justify-content: center;
-	align-content: flex-start;
+	align-items: flex-start;
 	height: 480px;
-
+margin-bottom: 40px;
 }
 
 @media screen and (max-width: 900px) {
@@ -271,7 +272,7 @@ width: 900px;
 
 .services-bottom-content h3{
 	width: 47%;
-	margin: 20px 0px 20px 0px;
+	margin: 0px 0px 20px 0px;
 }
 
 .services-bottom-content span {
@@ -464,6 +465,7 @@ header nav a {
 .logo {
     
     margin: 10px 0px 0px 158.5px;
+    border-bottom: none;
 }
 
 .innovation {
@@ -536,5 +538,92 @@ footer {
     }
 }/*END INDEX MEDIA SIZING */
 
+/*SERVICES SIZNG */
+@media (max-width: 500px) {
+    header {
+        width: 500px;
+    }
+    
+    nav{
+        height: auto;
+        margin-top: 0px;
+        overflow: hidden;
+        background-color: white;
+        top: 0;
+        width: 500px;
+        position: static;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    align-items: center;
+    }
+    
+    header nav a {
+        width: 450;
+        border-bottom: 1px solid darkslategray;
+        text-align: center;
+        margin: 0px 10px 0px 10px;
+    }
+    
+    .logo {
+        border-bottom: none;
+        margin: 0px 0px 0px 0px;
+    }
 
 
+.services-header-img {
+    width: 500px;
+}
+
+.about-services {
+    display: block;
+    width: 100%;
+}
+
+.about-services span {
+width: 90%;
+}
+
+#services-h1 {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+.services-main .info-box {
+	width: 80%;
+	border: 1px solid darkolivegreen;
+	margin: 10px 0px 10px 0px;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: lavenderblush;
+
+}
+
+.services-bottom-content {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-content: center;
+	height: 480px;
+
+}
+
+#services-button {
+    display: block;
+    margin: 20px 0px 20px 0px; 
+}
+
+button:hover {
+	background-color: burlywood;
+	height: 60px;
+    width: 300px;
+
+}
+
+.services-bottom-content {
+    display: none;
+}
+
+}
