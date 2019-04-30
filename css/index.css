@@ -566,8 +566,9 @@ footer {
     }
     
     .logo {
+    
+        margin: 10px 0px 0px 158.5px;
         border-bottom: none;
-        margin: 0px 0px 0px 0px;
     }
 
 
